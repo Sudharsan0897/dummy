@@ -25,7 +25,6 @@ class BranchResponse(BaseModel):
     contact_person: str
     phone: int
     email: str
-    model_config = ConfigDict(from_attributes=True)
 
 
 class BranchListResponse(BaseModel):
