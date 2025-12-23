@@ -1,5 +1,8 @@
-fastapi~=0.115.2
-sqlalchemy~=2.0.36
-pydantic~=1.10.7
+fastapi
 uvicorn
 gunicorn
+sqlalchemy
+pydantic
+python-jose
+passlib
+argon2-cffi
