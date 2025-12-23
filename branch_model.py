@@ -15,7 +15,3 @@ class Branch(Base):
     contact_person = Column(String(100), nullable=False)
     phone = Column(Integer, nullable=False)
     email = Column(String(100), nullable=False)
-
-
-        class Config:
-        from_attributes = True
