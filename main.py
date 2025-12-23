@@ -15,8 +15,8 @@ from branch_schema import BranchCreate, BranchResponse
 import branch_crud
 # --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Create tables on startup
-Base.metadata.create_all(bind=engine)
 app = FastAPI(title="Login/Signup API - Branch API")
+Base.metadata.create_all(bind=engine)
 @app.get("/")
 
 def root():
