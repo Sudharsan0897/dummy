@@ -5,5 +5,4 @@ pydantic
 pymysql
 argon2-cffi
 python-jose[cryptography]
-python-multipart
 passlib[argon2]
