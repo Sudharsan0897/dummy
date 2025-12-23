@@ -26,6 +26,9 @@ class BranchResponse(BaseModel):
     phone: int
     email: str
 
+    class Config:
+        from_attributes = True
+
 
 class BranchListResponse(BaseModel):
     branches: List[BranchResponse]
